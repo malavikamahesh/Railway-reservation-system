@@ -1,0 +1,19 @@
+{
+  "name": "railway-reservation-system",
+  "version": "1.0.0",
+  "description": "Railway Reservation System - Book train tickets efficiently",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "setup-db": "node db/setup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5"
+  }
+}
